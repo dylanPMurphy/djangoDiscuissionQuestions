@@ -5,7 +5,7 @@ Sorry for missing all of these
 # Wednesday - MVC
    What is MVC, and how does it make our projects more "maintainable"?                 
 ```
-
+MVC stands for Model View Controller which separates the key components of Web Applications.  
 ```
 # Friday - Looking Forward
 How could we further modularize our code as our app grows?
@@ -17,7 +17,7 @@ How could we further modularize our code as our app grows?
 What is AJAX and why should we care?    
 ```
 
-
+AJAX stands for asyncronus Javascript and XML
 ```
 
 # Wednesday - API Design
