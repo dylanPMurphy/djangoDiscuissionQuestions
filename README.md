@@ -39,7 +39,9 @@ previews with a download button that returns the raw data
 # Monday - Login/Logout
 What does "logging in" a user mean in terms of implementation within your Django projects?  Same with "logging out"?  What are checks you might want to do on login-protected page? 
 ```
-Logging in requires that there is a user registered with the key valuepair(username, bcrypt(password)) if theres a match a session key is created and is assigned to that user.  if you check there is a 'userid' in request.session it will return if that key exists.  Then you can lookup the user with the session data.
+Logging in requires that there is a user registered with the key valuepair(username, bcrypt(password))
+if theres a match a session key is created and is assigned to that user.  if you check there is a 'userid' 
+in request.session it will return if that key exists.  Then you can lookup the user with the session data.
 
 ```
 
